@@ -8,10 +8,17 @@
     
     <body>
     
+          <form class= "fb-header">
+        
+          
+          </form>
+
+        
+        
+        <div class="mydiv">
         <h1> Create a new account</h1>
         <p >its quick a easy.</p>
-        
-        <form action="fbreg.php" method="post">
+            <form action="fbreg.php" method="post">
         
             <input type="text" name=Fname placeholder="First name">
             <input type="text" name=Lname placeholder="Surname">
@@ -19,7 +26,7 @@
             <input type="email" name=Email placeholder="Email">
             <br>
             <input type="password" name=password placeholder="New password">
-            <p>Date of birth</p>
+            <p >Date of birth</p>
             <input type="date" name="Date-of-birth">
             <br>
             
@@ -30,7 +37,7 @@
             <br><br>
             <input type="submit" name=submit value="Sign Up">
         </form>
-        
+        </div>
         
   
  <?php
@@ -91,12 +98,6 @@
             
             echo"Table inserted failed".mysqli_connect_error(); 
         }
-    
-       
-    
-   
-    
-    
     
     }
     
