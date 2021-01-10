@@ -8,10 +8,20 @@
     
     <body>
     
-          <form class= "fb-header">
-        
-          
-          </form>
+          <div class= "fb-header">
+        <div class="log-form">
+              <form class="login" action="fbreg.php" method="post">
+              
+                  <p style="white-space:pre"> Email or phone              Password</p>            
+                <br>
+                  <input type="text" name="Email" placeholder="Email">
+                  
+                  
+                  <input type="text" name="password" placeholder="Pass">
+                <input type="submit" name="Login" placeholder="Login">
+              </form>
+              </div>
+              </div>
 
         
         
