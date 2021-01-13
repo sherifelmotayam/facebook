@@ -40,3 +40,35 @@ color: white;
     
     
 }
+
+
+
+.bar  {
+  
+width: 180px;
+height: 1000px;
+    background-color:rgba(235 ,237, 240);   
+    margin-left: -50px;
+margin-top:-19px;
+    font-size: 20px;
+}
+
+.bar  a {
+  
+color: #3d5b99;
+    text-decoration: black;
+    padding: 8px 50px;
+
+
+}
+
+.bar li a.active {
+  color:#3d5b99;
+background-color: white;
+}
+
+.bar  a:hover {
+ color:white;
+background-color: #3d5b99;
+}
+
