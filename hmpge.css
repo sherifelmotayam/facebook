@@ -1,0 +1,42 @@
+.topnav
+{
+    background:#3d5b99;
+    overflow: hidden;
+    font-family: serif;
+margin-left: -50px;
+margin-right: -10px;
+    font-size: 20px;
+height: 50px;
+    margin-top: -10px;
+    
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 400px;
+  font-size: 17px;
+border-radius: 10px;
+width: 350px;
+}
+
+.topnav a
+{
+    float:right;
+    display: block;
+color: white;   
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.topnav a:hover
+{
+    background-color: white;
+    color:dodgerblue;
+    
+    
+}
