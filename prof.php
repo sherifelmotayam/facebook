@@ -1,12 +1,8 @@
    <?php
        session_start();
 
-          $username="root";
-          $hostname="localhost";
-          $password="";
-          $dbname="facebook";
-            
-          $conn=mysqli_connect($hostname,$username,$password,$dbname);
+            include '.connection_reg.php';
+  
           $get_info="SELECT * FROM `fbreg` WHERE Email='".$_SESSION["Email"]."'";   
           $result=mysqli_query($conn,$get_info);
         
